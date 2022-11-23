@@ -6,7 +6,7 @@
 }
 
 .header__menu {
-    background-image: url(../img/Menu.svg);
+    background-image: url(../img/header/Menu.svg);
     background-position: center;
     background-repeat: no-repeat;
     display: inline-block;
