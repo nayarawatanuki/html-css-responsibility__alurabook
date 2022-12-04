@@ -1,10 +1,27 @@
 @import url(styles/header.css);
+@import url(styles/banner.css);
+@import url(styles/carousel.css);
+@import url(styles/card.css);
+@import url(styles/topics.css);
+@import url(styles/contact.css);
+@import url(styles/footer.css);
 
 :root {
     --background: #EBECEE;
+    --black: #000000;
+    --blue: #002F52;
+    --font: "Poppins";
+    --gradient-blue: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --gray: #474646;
+    --light-gray: #858585;
+    --orange:#EB9B00;
+    --second-font: "Josefin Sans";
     --white: #FFFFFF;
 }
 
 body {
     background-color: var(--background);
+    font-family: var(--font);
+    font-size: 16px;
+    font-weight: 400;
 }
