@@ -1,0 +1,70 @@
+.banner {
+    background: var(--gradient-blue);
+    padding: 2.5em 2em;
+    text-align: center;
+}
+
+.banner__title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.banner__text {
+    font-weight: 500;
+    line-height: 24px;
+    margin: 1em 0;
+}
+
+.banner__search {
+    background: url(../img/banner/search.svg) no-repeat;
+    background-position: 2em;
+    background-color: transparent;
+    border: 1px solid var(--white);
+    border-radius: 24px;
+    padding: 1em;
+    text-justify: auto;
+    text-indent: 4em;
+    width: 100%;
+}
+
+.banner__search::placeholder {
+    font-family: var(--font);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.banner, 
+.banner__search, 
+.banner__search::placeholder {
+    color: var(--white);
+}
+
+@media screen and (min-width: 1024px) {
+    .banner__title {
+        font-size: 36px;
+    }
+
+    .banner__search {
+        width: 50%;
+    }
+
+    .banner__search::placeholder {
+        margin-left: 2.5em;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .banner {
+        padding: 6em 0;
+    }
+
+    .banner__search {
+        width: 35%;
+    }
+
+    .banner__search::placeholder {
+        background-position: 12em;
+    }
+}
