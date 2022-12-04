@@ -1,0 +1,120 @@
+.card {
+    background: var(--white);
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 1em;
+    padding: 1em;
+}
+
+.card__description, .card__buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__description {
+    margin-bottom: 0.5em;
+}
+
+.description__img {
+    background: url(../img/card/Star.svg);
+    background-color: transparent;
+    background-repeat: space;
+    border: 0;
+    padding: 0 .5em;
+    vertical-align: bottom;
+    width: 75px;
+}
+
+.description__title {
+    display: block;
+    color: var(--orange);
+    margin-right: 3px;
+}
+
+.description__book-title, .description__writer-profile {
+    color: var(--blue);
+    font-size: 18px;
+    margin: 0.5em 0;
+    margin-right: 1em;
+}
+
+.description__img, .description__title, .description__book-title, .description__writer-profile, .button__a {
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.description__text {
+    font-size: 14px;
+    padding-right: 1em;
+}
+
+.buttons {
+    align-items: center;
+    display: flex;
+}
+
+.button__item {
+    margin: 0 0.5em;
+}
+
+.book__img {
+    display: block;
+    height: 140px;
+    padding: 0 0 2em 0;
+    width: 140px;
+}
+
+.button__a {
+    background-color: var(--orange);
+    color: var(--white);
+    padding: 1em 2.2em;
+    text-decoration: none;
+}
+
+.writer-profile__img {
+    padding: 2em 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .card {
+        width: 588px;
+        margin: 2em auto;
+        padding: 1.5em;
+    }
+
+    .book__img, .writer-profile__img {
+        height: 169px;
+        width: 169px;
+        padding: 0 0 1em 0;
+    }
+
+    .description__title {
+        line-height: 24px;
+    }
+
+    .description__book-title, 
+    .description__writer-profile {
+        line-height: 27px;
+    }
+
+    .description__text {
+        line-height: 21px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .card {
+        width: auto;
+        margin: 3em 2em 0 3em;
+        padding: 1.5em;
+    }
+
+    .description__title {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .description__text {
+        font-size: 16px;
+    }
+}
