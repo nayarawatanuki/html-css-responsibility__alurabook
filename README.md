@@ -114,7 +114,7 @@ Ou, caso prefira baixá-lo clicando [aqui](https://github.com/nayarawatanuki/htm
 </br>
 
 ## :keyboard: Tecnologias utilizadas
-![HTML + CSS](https://raw.githubusercontent.com/nayarawatanuki/css__flexbox-grid/main/assets/img/README.md/html-css-js.PNG)</br>
+![HTML + CSS](https://raw.githubusercontent.com/nayarawatanuki/html-css-responsiveness__alurabook/main/img/readme/html-css.PNG)</br>
 
 </br>
 
