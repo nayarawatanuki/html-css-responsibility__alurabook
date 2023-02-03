@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Alurabooks" src="https://raw.githubusercontent.com/nayarawatanuki/html-css-responsibility__alurabook/main/img/readme/cover.png"/>
+  <img alt="Alurabooks" src="https://raw.githubusercontent.com/nayarawatanuki/html-css-responsibility__alurabook/main/img/readme/cover.png#vitrinedev"/>
 </h1>
 
 ### Índice
@@ -18,7 +18,7 @@
 O projeto **[Alurabooks](https://nayarawatanuki.github.io/html-css-responsibility__alurabook/)**, é uma proposta de página web para uma loja de livros. 
 Esse projeto contém o objetivo de aprender a fazer uma página totalmente responsiva, suportando todas as resoluções e dispositivos.
 
-</br>Desenvolvido para o curso de **HTML E CSS: RESPONSIVIDADE COM MOBILE-FIRST** da platforma [Alura](https://www.alura.com.br/).
+</br>Desenvolvido para o curso de **HTML E CSS: RESPONSIVIDADE COM MOBILE-FIRST** da plataforma [Alura](https://www.alura.com.br/).
 
 </br>
 
